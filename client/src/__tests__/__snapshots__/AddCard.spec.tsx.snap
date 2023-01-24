@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for the AddCard component Renders the component 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-md-4"
+  >
+    <h2>
+      Add
+    </h2>
+    <form
+      className=""
+      onSubmit={[Function]}
+    >
+      <div>
+        <label
+          className="form-label"
+          htmlFor="formName"
+        >
+          Name
+        </label>
+        <input
+          aria-label="Name input"
+          className="form-control"
+          id="formName"
+          name="name"
+          onChange={[Function]}
+          placeholder="Enter name"
+          required={true}
+          type="text"
+          value=""
+        />
+      </div>
+      <div>
+        <label
+          className="form-label"
+          htmlFor="formCardNumber"
+        >
+          Card Number
+        </label>
+        <input
+          aria-label="Card number input"
+          className="form-control"
+          id="formCardNumber"
+          name="cardNumber"
+          onChange={[Function]}
+          placeholder="Enter card number"
+          required={true}
+          type="number"
+          value={0}
+        />
+      </div>
+      <div>
+        <label
+          className="form-label"
+          htmlFor="formLimit"
+        >
+          Limit
+        </label>
+        <input
+          aria-label="Limit input"
+          className="form-control"
+          id="formLimit"
+          name="limit"
+          onChange={[Function]}
+          placeholder="Enter limit"
+          required={true}
+          type="number"
+          value={0}
+        />
+      </div>
+      <div
+        style={
+          {
+            "marginTop": 10,
+          }
+        }
+      >
+        <button
+          aria-label="Add card button"
+          className="btn btn-primary"
+          disabled={false}
+          type="submit"
+        >
+          Add Card
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;
